@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- LINK STYLE PERSONALIZABLE -->
+    <link rel="stylesheet" href="style.css">
+    <!-- LINK GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@600;700;800&family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <!-- LINKS FONTS AWASOME ICONS -->
+    <script src="https://kit.fontawesome.com/766c25c2d0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+        <!-- HEADER -->
+        <header class="header">
+            <!-- HEADER CONTENEDOR -->
+            <div class="header__container">
+                <!-- NAV CONTENT -->
+                <div class="nav__content">
+                    <div class="nav__content--mask">
+                        <!--MENU NAVEGADOR-->
+                        <nav class="nav__container">
+                            <div class="nav__container--b">
+                                <div class="header__container--nav">
+                                    <!-- LOGO -->
+                                    <div class="figure__logo">
+                                        <i class="fa-solid fa-feather"></i>
+                                        <p class="text__logo">FenbApps</p>
+                                    </div>
+                                    <!-- CLOSE -->
+                                    <a href="" class="box__close">
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </a>
+                                </div>
+                                <!-- NAVEGADOR LINKS -->
+                                <ul class="nav__list">
+                                    <li class="nav__item">
+                                        <a href="" class="nav__link nav__link--active home-link">
+                                            <i class="fa-solid fa-gauge"></i>
+                                            Dashboard
+                                        </a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="" class="nav__link">
+                                            <i class="fa-solid fa-blog"></i>
+                                            Blog
+                                        </a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="" class="nav__link">
+                                            <i class="fa-solid fa-chart-simple"></i>
+                                            Analitics
+                                        </a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="" class="nav__link">
+                                            <i class="fa-solid fa-wallet"></i>
+                                            Wallet
+                                        </a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="" class="nav__link">
+                                            <i class="fa-solid fa-people-group"></i>
+                                            Community
+                                        </a>
+                                    </li>
+                                    <li class="nav__item nav__item--messages">
+                                        <a href="" class="nav__link">
+                                            <i class="fa-solid fa-message"></i>
+                                            Messages
+                                        </a>
+                                        <div class="messages">
+                                            <i class="fa-solid fa-comment">
+                                            </i>
+                                            <p class="number__messages">111</p> 
+                                        </div>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="" class="nav__link">
+                                            <i class="fa-solid fa-gear"></i>
+                                            Settings
+                                        </a>
+                                    </li>
+                                </ul>
+                
+                                <!-- BTN SALIDA -->
+                                <button class="btn btn-logout">
+                                    <i class="fa-solid fa-right-from-bracket"></i>
+                                    Logout
+                                </button>
+                            </div>
+                        </nav>
+            
+                    </div>
+                    <!-- BOTON MENU -->
+                    <a href="" class="box__model" id="menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                </div>
+
+                <!-- CONTENEDOR DARK Y PERFIL DE USUARIO -->
+                <div class="header__content--btns">
+                    <!-- BOTON DARK LIGTH-->
+                    <button class="switch">
+                        <i class="fa-solid fa-sun fa__active"></i>
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+        
+                    <!-- CONTENEDOR PERFIL DE USUARIO -->
+                    <div class="card__settings--user">
+                        <figure class="figure__user">
+                            <img src="images/profile.jpg" alt="Tim-Berners-Lee" title="Tim-Berners-Lee" class="img__user">
+                        </figure>
+
+                        <!-- Se puede crear el modal para el usuario vea sus funcionalidades -->                    
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="main__container grid gap-1">
+                <div class="card__dashboard">
+                    <div class="dashboard__info">
+                        <h1 class="card__social--title">Dashboard</h1>
+                        <p class="total__followers">Total Followers: <span class="span__total"></span></p>
+                    </div>
+                    <div class="card__grid--social">
+                        <div class="card__social">
+                            <div class="red__content flex">
+                                <i class="fa-brands fa-facebook fa-red"></i>
+                                <p class="text__red">@fenbapps</p> 
+                            </div>
+                            <div class="followers__content">
+                                <p class="text__followers">1,937</p>
+                                <p class="followers">Followers</p>
+                            </div>
+                            <div class="porcentaje__seguidores flex">
+                                <i class="fa-solid fa-caret-up"></i>
+                                <p class="bold--text">12</p>
+                                <p class="bold--text">Today</p>
+                            </div>
+                        </div>
+                        <div class="card__social">
+                            <div class="red__content flex">
+                                <i class="fa-brands fa-twitter fa-red"></i>
+                                <p class="text__red">@fenbapps</p> 
+                            </div>
+                            <div class="followers__content">
+                                <p class="text__followers">1,044</p>
+                                <p class="followers">Followers</p>
+                            </div>
+                            <div class="porcentaje__seguidores flex">
+                                <i class="fa-solid fa-caret-up"></i>
+                                <p class="bold--text">23</p>
+                                <p class="bold--text">Today</p>
+                            </div>
+                        </div>
+                        <div class="card__social">
+                            <div class="red__content flex">
+                                <i class="fa-brands fa-instagram fa-red"></i>
+                                <p class="text__red">@fenbapps</p> 
+                            </div>
+                            <div class="followers__content">
+                                <p class="text__followers">11,000</p>
+                                <p class="followers">Followers</p>
+                            </div>
+                            <div class="porcentaje__seguidores flex">
+                                <i class="fa-solid fa-caret-up"></i>
+                                <p class="bold--text">65</p>
+                                <p class="bold--text">Today</p>
+                            </div>
+                        </div>
+                        <div class="card__social">
+                            <div class="red__content flex">
+                                <i class="fa-brands fa-youtube fa-red"></i>
+                                <p class="text__red">FenbApps</p> 
+                            </div>
+                            <div class="followers__content">
+                                <p class="text__followers">12,940</p>
+                                <p class="followers">Subscribers</p>
+                            </div>
+                            <div class="porcentaje__seguidores flex">
+                                <i class="fa-solid fa-caret-up"></i>
+                                <p class="bold--text">6</p>
+                                <p class="bold--text">Today</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card__overview grid gap-1">
+                    <h2 class="overview__title">Overview -
+                        <span class="span__title">Today</span>
+                    </h2>
+                    <div class="card__grid--social">
+                        <!-- Card  1-->
+                        <div class="card__overview--content">
+                            <div class="page__content flex--overview">
+                                <p class="text__page--content">Page Views</p>
+                                <i class="fa-brands fa-facebook fa-red"></i>
+                            </div>
+
+                            <div class="page__analitic flex--overview">
+                                <p class="text__number">8,786</p>
+                                <div class="page__porciento flex--overview">
+                                    <i class="fa-solid fa-caret-up"></i>
+                                    <p class="bold--text">124</p>
+                                    <p class="bold--text">%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="card__overview--content">
+                            <div class="page__content flex--overview">
+                                <p class="text__page--content">Likes</p>
+                                <i class="fa-brands fa-facebook fa-red"></i>
+                            </div>
+
+                            <div class="page__analitic flex--overview">
+                                <p class="text__number">520</p>
+                                <div class="page__porciento flex--overview">
+                                    <i class="fa-solid fa-caret-up fa-up"></i>
+                                    <p class="bold--text--red">-32</p>
+                                    <p class="bold--text--red">%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card  3-->
+                        <div class="card__overview--content">
+                            <div class="page__content flex--overview">
+                                <p class="text__page--content">Page Views</p>
+                                <i class="fa-brands fa-instagram fa-red"></i>
+                            </div>
+
+                            <div class="page__analitic flex--overview">
+                                <p class="text__number">5,462</p>
+                                <div class="page__porciento flex--overview">
+                                    <i class="fa-solid fa-caret-up"></i>
+                                    <p class="bold--text">2276</p>
+                                    <p class="bold--text">%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card  4-->
+                        <div class="card__overview--content">
+                            <div class="page__content flex--overview">
+                                <p class="text__page--content">Likes</p>
+                                <i class="fa-brands fa-instagram fa-red"></i>
+                            </div>
+
+                            <div class="page__analitic flex--overview">
+                                <p class="text__number">52,000</p>
+                                <div class="page__porciento flex--overview">
+                                    <i class="fa-solid fa-caret-up"></i>
+                                    <p class="bold--text">1352</p>
+                                    <p class="bold--text">%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card  5-->
+                        <div class="card__overview--content">
+                            <div class="page__content flex--overview">
+                                <p class="text__page--content">Retweets</p>
+                                <i class="fa-brands fa-twitter fa-red"></i>
+                            </div>
+
+                            <div class="page__analitic flex--overview">
+                                <p class="text__number">768</p>
+                                <div class="page__porciento flex--overview">
+                                    <i class="fa-solid fa-caret-up"></i>
+                                    <p class="bold--text">300</p>
+                                    <p class="bold--text">%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card  6-->
+                        <div class="card__overview--content">
+                            <div class="page__content flex--overview">
+                                <p class="text__page--content">Likes</p>
+                                <i class="fa-brands fa-twitter fa-red"></i>
+                            </div>
+
+                            <div class="page__analitic flex--overview">
+                                <p class="text__number">3,500</p>
+                                <div class="page__porciento flex--overview">
+                                    <i class="fa-solid fa-caret-up fa-up"></i>
+                                    <p class="bold--text--red">-58</p>
+                                    <p class="bold--text--red">%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card  7-->
+                        <div class="card__overview--content">
+                            <div class="page__content flex--overview">
+                                <p class="text__page--content">Total Views</p>
+                                <i class="fa-brands fa-youtube fa-red"></i>
+                            </div>
+
+                            <div class="page__analitic flex--overview">
+                                <p class="text__number">120,000</p>
+                                <div class="page__porciento flex--overview">
+                                    <i class="fa-solid fa-caret-up"></i>
+                                    <p class="bold--text">3457</p>
+                                    <p class="bold--text">%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card  8-->
+                        <div class="card__overview--content">
+                            <div class="page__content flex--overview">
+                                <p class="text__page--content">Likes</p>
+                                <i class="fa-brands fa-youtube fa-red"></i>
+                            </div>
+
+                            <div class="page__analitic flex--overview">
+                                <p class="text__number">35,000</p>
+                                <div class="page__porciento flex--overview">
+                                    <i class="fa-solid fa-caret-up"></i>
+                                    <p class="bold--text">3200</p>
+                                    <p class="bold--text">%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    </div>
+
+
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+</body>
+</html>
